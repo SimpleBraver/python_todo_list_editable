@@ -1,0 +1,10 @@
+$def with (todo)
+
+$todo[0]
+
+<form action="/edit/$todo[0]" method="post">
+    <input type="text" name="input_text_edit" value='$todo[1]'>
+    <input type="submit" value="Save">
+</form>
+
+<a href="/">取消</a>
